@@ -1,5 +1,5 @@
 class Solution:
-    def isPalindrome(self, s: str) -> int:
+    def romanToInt(self, s: str) -> int:
         roman_mappings = {
             "I":1,
             "V":5,
@@ -18,3 +18,5 @@ class Solution:
                 result += roman_mappings[s[i]]
         return result
 s=Solution()
+print(s.romanToInt("LVIII"))   
+print(s.romanToInt("MCMXCIV"))

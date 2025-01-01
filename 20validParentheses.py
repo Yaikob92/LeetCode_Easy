@@ -16,4 +16,5 @@ class Solution:
 
 
 s = Solution()
-print(s.isValid())
+print(s.isValid("([}])"))
+print(s.isValid("([{}])"))
